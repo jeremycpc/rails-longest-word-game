@@ -1,0 +1,11 @@
+<h1>Result</h1>
+<p> <strong><%= @result %></strong></p>
+<br>
+<p>Total score: <em><%= session[:score] %></em>  </p>
+<br>
+<p>
+  <%= link_to "Play again", new_path %>
+  <br>
+  <%= link_to "Reset score", reset_path %>
+</p>
+
